@@ -8,6 +8,7 @@ function BlogList(props) {
     return (
       <div>
           <div className="container mx-auto my-16 p-9">
+
               <div className="grid grid-cols-1 mt-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
                   {
                       props.list.map((item,index)=>{
